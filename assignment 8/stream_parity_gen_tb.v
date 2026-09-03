@@ -1,4 +1,4 @@
-module tb_stream_parity_gen;
+module stream_parity_gen_tb;
     reg clk;
     reg rst;
     reg serial_in;
