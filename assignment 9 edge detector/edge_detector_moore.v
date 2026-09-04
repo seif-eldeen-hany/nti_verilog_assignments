@@ -24,9 +24,9 @@ module edge_detector_moore(
     //next state logic
     always @(*) begin
         case (cs)
-            idle: a? (ns=tick):(ns=idle); 
-            tick: (ns=Wait);
-            Wait: a? (ns=Wait):(ns=idle); 
+            idle: ns= a? tick:idle;
+            tick: ns=Wait;
+            Wait: ns= a? Wait:idle;
             default: ns=idle;
         endcase
     end

@@ -2,7 +2,7 @@ module edge_detector_mealy(
     input wire clk,
     input wire a,
     input wire rst,
-    
+
     output reg mealy_out
 );
     //state assignment
@@ -23,8 +23,8 @@ module edge_detector_mealy(
     //next state logic
     always @(*) begin
         case (cs)
-            idle: a? (ns=Wait):(ns=idle); 
-            Wait: a? (ns=Wait):(ns=idle); 
+            idle: ns= a? Wait:idle; 
+            Wait: ns= a? Wait:idle; 
             default:ns=idle; 
         endcase
     end
