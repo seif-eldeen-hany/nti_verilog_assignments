@@ -1,23 +1,16 @@
-{D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_overlapping.v}
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module moore_overlapping
-
-Top level modules:
-	moore_overlapping
-
-} {} {}} {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/mealy_non_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/mealy_non_overlapping.v}
+{D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/mealy_non_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/mealy_non_overlapping.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module mealy_non_overlapping
 
 Top level modules:
 	mealy_non_overlapping
 
-} {} {}} {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_non_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_non_overlapping.v}
+} {} {}} {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_overlapping.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module moore_non_overlapping
+-- Compiling module moore_overlapping
 
 Top level modules:
-	moore_non_overlapping
+	moore_overlapping
 
 } {} {}} {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/mealy_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/mealy_overlapping.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -25,6 +18,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	mealy_overlapping
+
+} {} {}} {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_non_overlapping.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/moore_non_overlapping.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module moore_non_overlapping
+
+Top level modules:
+	moore_non_overlapping
 
 } {} {}} {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/sequence_detector_tb.v} {1 {vlog -work work -stats=none {D:/vs code/ic design/NTI assignments/assignment 11 sequence detector/sequence_detector_tb.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
